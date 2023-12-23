@@ -1,0 +1,10 @@
+.cards{
+    height: 100vh;
+    background-color: black;
+}
+
+.cards-block{
+    padding-top: 100px;
+    background-color: black;
+}
+

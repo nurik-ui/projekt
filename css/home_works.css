@@ -1,0 +1,117 @@
+/* GMAIL BLOCK */
+.gmail_block {
+    background: linear-gradient(to bottom, #23074d, #442265);
+    padding: 100px 0;
+}
+
+.inner_gmail_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #f8c51c;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form_gmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_gmail button {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #f8c51c;
+    color: #23074d;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form_gmail button:hover {
+    background-color: #442265;
+}
+
+/* MOVE BLOCK */
+.move_block {
+    background: linear-gradient(to bottom, #23074d, #442265);
+    padding: 100px 0;
+}
+
+.parent_block {
+    height: 500px;
+    width: 500px;
+    border: 2px solid #f8c51c;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inner_parent_block {
+    height: 400px;
+    width: 400px;
+    border: 2px solid #f8c51c;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.child_block {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #f8c51c;
+    border-radius: 50%;
+    animation: magicBattle 2s infinite alternate;
+}
+
+@keyframes magicBattle {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}
+
+.inner_move_block {
+    margin-top: 50px;
+}
+
+/*----ANALOG CLOCK-----*/
+/* ... ваш оригинальный код ... */
+
+/*-------STOP WATCH------ */
+.stopwatch {
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #23074d, #442265);
+}
+
+.time {
+    color: #f8c51c;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #f8c51c;
+    margin-top: 40px;
+}
+
+.time_block {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.time_buttons {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
